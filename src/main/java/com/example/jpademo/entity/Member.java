@@ -22,3 +22,6 @@ public class Member {
 
 // curl -X POST http://localhost:8081/members -H "Content-Type: application/json; charset=utf-8" -d '{"name":"lee"}'
 // curl http://localhost:8081/members
+
+// curl -X POST http://13.125.247.83:8080/members -H "Content-Type: application/json; charset=utf-8" -d '{"name":"lee"}'
+// curl http://13.125.247.83:8080/members
