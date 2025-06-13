@@ -60,4 +60,4 @@ jobs:
           --application-name board
           --deployment-config-name CodeDeployDefault.AllAtOnce
           --deployment-group-name board-prod
-          --s3-location bucket=board-bucket99,bundleType=tgz,key=$GITHUB_SHA.tar.gz#!/bin/bash
+          --s3-location bucket=board-bucket99,bundleType=tgz,key=$GITHUB_SHA.tar.gz
