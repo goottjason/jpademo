@@ -19,3 +19,6 @@ public class Member {
     private Long id;
     private String name;
 }
+
+// curl -X POST http://localhost:8081/members -H "Content-Type: application/json; charset=utf-8" -d '{"name":"lee"}'
+// curl http://localhost:8081/members
